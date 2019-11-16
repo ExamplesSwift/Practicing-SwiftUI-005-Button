@@ -36,6 +36,11 @@ struct ContentView : View {
       Button("Make Meow!") {
         print("😻Meeeeeeoow!😻")
       }
+      Button(action: {
+        print("Food was good!")
+      }){
+        Text("Feed kitten!")
+      }
     }
   }
 }

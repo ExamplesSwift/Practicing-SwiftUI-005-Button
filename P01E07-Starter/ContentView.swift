@@ -49,6 +49,8 @@ struct ContentView : View {
             .renderingMode(.original)
             .resizable()
           .scaledToFit()
+            .shadow(radius: 10)
+            .padding()
           
           Text("Feed Cat!")
         }

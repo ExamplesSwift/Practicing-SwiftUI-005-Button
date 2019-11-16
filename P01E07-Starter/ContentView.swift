@@ -57,6 +57,7 @@ struct ContentView : View {
             .foregroundColor(.primary)
             .padding([.leading, .trailing], 10)
             .background(Color.purple)
+          .cornerRadius(10)
             
         }
       }

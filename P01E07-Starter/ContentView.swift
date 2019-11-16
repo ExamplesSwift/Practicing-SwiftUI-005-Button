@@ -30,6 +30,10 @@ import SwiftUI
 
 struct ContentView : View {
   
+  let foodPrinter: () -> () = {
+    print("The food was soo good! 🐟")
+  }
+  
   var body: some View {
     
     VStack {

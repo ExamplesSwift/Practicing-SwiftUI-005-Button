@@ -58,6 +58,7 @@ struct ContentView : View {
             .padding([.leading, .trailing], 10)
             .background(Color.purple)
           .cornerRadius(10)
+          .shadow(radius: 10)
             
         }
       }

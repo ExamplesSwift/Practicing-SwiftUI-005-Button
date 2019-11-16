@@ -45,8 +45,10 @@ struct ContentView : View {
       }) {
         VStack {
           Text("Give gift")
+            .font(Font.system(.body))
           
           Image(systemName: "gift")
+            .font(Font.system(.largeTitle))
         }
       }
       

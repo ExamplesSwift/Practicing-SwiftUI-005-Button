@@ -40,9 +40,8 @@ struct ContentView : View {
       Button("Make Meow!") {
         print("😻Meeeeeeoow!😻")
       }
-      Button(action: {
-        print("Food was good!")
-      }){
+      
+      Button(action: foodPrinter){
         VStack{
           Image("Cat")
             .renderingMode(.original)

@@ -55,6 +55,7 @@ struct ContentView : View {
           Text("Feed Cat!")
             .font(Font.system(.headline, design: .rounded))
             .foregroundColor(.primary)
+            .padding([.leading, .trailing], 10)
             
         }
       }

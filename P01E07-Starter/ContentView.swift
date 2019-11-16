@@ -53,6 +53,8 @@ struct ContentView : View {
             .padding()
           
           Text("Feed Cat!")
+            .font(Font.system(.headline, design: .rounded))
+            
         }
       }
     }

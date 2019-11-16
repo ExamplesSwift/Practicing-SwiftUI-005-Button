@@ -56,6 +56,7 @@ struct ContentView : View {
             .font(Font.system(.headline, design: .rounded))
             .foregroundColor(.primary)
             .padding([.leading, .trailing], 10)
+            .background(Color.purple)
             
         }
       }

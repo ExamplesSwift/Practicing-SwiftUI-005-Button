@@ -41,6 +41,7 @@ struct ContentView : View {
       }){
         VStack{
           Image("Cat")
+            .renderingMode(.original)
             .resizable()
           .scaledToFit()
           

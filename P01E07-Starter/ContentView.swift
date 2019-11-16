@@ -34,11 +34,13 @@ struct ContentView : View {
     print("The food was soo good! 🐟")
   }
   
+  let meow = "😻Meeeeeeoow!😻"
+  
   var body: some View {
     
     VStack {
       Button("Make Meow!") {
-        print("😻Meeeeeeoow!😻")
+        print(self.meow)
       }
       
       Button(action: foodPrinter){

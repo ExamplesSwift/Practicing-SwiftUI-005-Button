@@ -39,10 +39,18 @@ struct ContentView : View {
   var body: some View {
     
     VStack {
-      Button("Make Meow!") {
-        print(self.meow)
+      
+      Button(action: {
+        
+      }) {
+        VStack {
+          Text("Give gift")
+          
+          Image(systemName: "gift")
+        }
       }
       
+        
       Button(action: foodPrinter){
         VStack{
           Image("Cat")

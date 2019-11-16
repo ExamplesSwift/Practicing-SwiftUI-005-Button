@@ -39,7 +39,13 @@ struct ContentView : View {
       Button(action: {
         print("Food was good!")
       }){
-        Text("Feed kitten!")
+        VStack{
+          Image("Cat")
+            .resizable()
+          .scaledToFit()
+          
+          Text("Feed Cat!")
+        }
       }
     }
   }
